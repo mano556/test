@@ -1,0 +1,16 @@
+/* style.css */
+@keyframes moveRightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  h1 {
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+    overflow: hidden;    /* Hide any overflow beyond the container */
+    animation: moveRightToLeft 10s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
